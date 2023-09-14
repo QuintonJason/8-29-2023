@@ -50,3 +50,14 @@ p {
 .koala-featured-image-image {
   border: 4px solid #00c200;
 }
+
+
+/* Lavendar Chicken section */
+.lavendar-chicken-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lavendar-chicken-featured-wrapper {
+  display: flex;
+}
