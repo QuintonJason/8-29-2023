@@ -73,12 +73,23 @@ p {
 
 .lavendar-chicken-main {
   background-color: #008000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex: 1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lavendar-chicken-footer {
   background-color: #ffc0cb
+}
+
+.lavendar-chicken-feature-items {
+  display: flex;
+  gap: 24px;
+}
+
+.lavendar-chicken-feature-item {
+  background-color: floralwhite
 }
