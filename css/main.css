@@ -53,11 +53,25 @@ p {
 
 
 /* Lavendar Chicken section */
+.lavendar-chicken-main-wrapper {
+  background: #000000;
+}
+
 .lavendar-chicken-header {
   display: flex;
   justify-content: space-between;
+  background-color: #ffa500;
 }
 
 .lavendar-chicken-featured-wrapper {
   display: flex;
+  background-color: #800080;
+}
+
+.lavendar-chicken-main {
+  background-color: #008000;
+}
+
+.lavendar-chicken-footer {
+  background-color: #ffc0cb
 }
