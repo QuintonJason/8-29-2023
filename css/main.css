@@ -53,25 +53,29 @@ p {
 
 
 /* Lavendar Chicken section */
-.lavendar-chicken-main-wrapper {
+.lavendar-chicken-main-wrapper,
+.yellow-pig-main-wrapper {
   background: #000000;
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
-.lavendar-chicken-header {
+.lavendar-chicken-header,
+.yellow-pig-header {
   display: flex;
   justify-content: space-between;
   background-color: #ffa500;
 }
 
-.lavendar-chicken-featured-wrapper {
+.lavendar-chicken-featured-wrapper,
+.yellow-pig-featured-wrapper {
   display: flex;
   background-color: #800080;
 }
 
-.lavendar-chicken-main {
+.lavendar-chicken-main,
+.yellow-pig-main {
   background-color: #008000;
   flex: 1;
   padding-top: 24px;
@@ -81,15 +85,18 @@ p {
   margin-right: auto;
 }
 
-.lavendar-chicken-footer {
+.lavendar-chicken-footer,
+.yellow-pig-footer {
   background-color: #ffc0cb
 }
 
-.lavendar-chicken-feature-items {
+.lavendar-chicken-feature-items,
+.yellow-pig-feature-items {
   display: flex;
   gap: 24px;
 }
 
-.lavendar-chicken-feature-item {
+.lavendar-chicken-feature-item,
+.yellow-pig-feature-item {
   background-color: floralwhite
 }
