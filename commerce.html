@@ -24,7 +24,14 @@
 
 <body>
   <div class="yellow-pig-main-wrapper">
-    <header class="yellow-pig-header">header</header>
+    <header class="yellow-pig-header">
+      <img src="" alt="">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
     <main class="yellow-pig-main">
 
       <!-- featured section -->
@@ -52,17 +59,20 @@
 
       </div>
       <!-- my contact form section -->
-      <form action="/action_page.php">
+      <form action="./thanks.html">
         <label class="l-hidden" for="fname">First name:</label><br>
+        <label class="" for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="" placeholder="First Name"><br>
-        <!-- <label for="lname">Last name:</label><br> -->
+        <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
         <label for=""></label>
         <textarea id="story" name="story" rows="5" cols="33">
           It was a dark and stormy night...
         </textarea>
-        <input type="submit" value="Submit">
+        <input class="my-button my-secondary-button" type="submit" value="Submit">
       </form> 
+      <button class="my-button my-secondary-button">another button</button>
+      <a href="#" class="my-button my-secondary-button">not a button but looks like one</a>
     </main>
     <footer class="yellow-pig-footer">footer</footer>
   </div>
