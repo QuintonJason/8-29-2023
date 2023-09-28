@@ -83,7 +83,8 @@ h6 {
   text-transform: uppercase;
 }
 
-input {
+input,
+textarea {
   border: 1px solid #c4c3c3;
   padding: 10px;
   border-radius: 8px;
@@ -183,8 +184,19 @@ nav a:hover,
 .lavendar-chicken-header,
 .yellow-pig-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: #ffa500;
+}
+
+@media (max-width: 767px) {
+  .lavendar-chicken-header,
+  .yellow-pig-header {
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
 
 .lavendar-chicken-featured-wrapper,
