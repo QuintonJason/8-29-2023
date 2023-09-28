@@ -20,6 +20,27 @@ body {
   font-size: 16px;
 }
 
+/* media query for phones */
+@media (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}
+
+/* media query for tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: maroon;
+  }
+}
+
+/* media query for desktop */
+@media (min-width: 768px) {
+  body {
+    background-color: peachpuff;
+  }
+}
+
 label {
   color: rgb(0, 0, 0);
 }
@@ -43,7 +64,8 @@ ul {
 }
 
 img {
- width: 300px;
+ width: 100%;
+ height: auto;
 }
 
 h2 {
@@ -96,6 +118,7 @@ nav a:hover,
 
 .koala-featured-image-wrapper img {
   border: 4px solid red;
+  max-width: 800px;
 }
 
 .koala-featured-image-image {
@@ -106,7 +129,6 @@ nav a:hover,
 /* Lavendar Chicken section */
 .lavendar-chicken-main-wrapper,
 .yellow-pig-main-wrapper {
-  background: #000000;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -127,7 +149,6 @@ nav a:hover,
 
 .lavendar-chicken-main,
 .yellow-pig-main {
-  background-color: #008000;
   flex: 1;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -150,4 +171,8 @@ nav a:hover,
 .lavendar-chicken-feature-item,
 .yellow-pig-feature-item {
   background-color: floralwhite
+}
+
+.yellow-pig-logo {
+  width: 90px;
 }
