@@ -1,5 +1,9 @@
 /* Place CSS styles here */
 
+* {
+  box-sizing: border-box;
+}
+
 .l-hidden {
   position: absolute;
   width: 1px;
@@ -54,13 +58,6 @@ h5 {
   }
 }
 
-/* media query for tablet */
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background-color: maroon;
-  }
-}
-
 /* media query for desktop */
 @media (min-width: 768px) {
   body {
@@ -84,6 +81,27 @@ h5,
 h6 {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
+}
+
+input {
+  border: 1px solid #c4c3c3;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+form {
+  max-width: 500px;
+  display: block;
+  /* width: 80%; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -113,6 +131,7 @@ nav a,
   margin-bottom: 4px;
   text-decoration: none;
   transition: all .25s ease;
+  width: auto;
 }
 
 nav a:hover,
@@ -193,6 +212,14 @@ nav a:hover,
 .yellow-pig-feature-items {
   display: flex;
   gap: 24px;
+}
+
+/* for phone */
+@media (max-width: 767px) {
+  .lavendar-chicken-feature-items,
+  .yellow-pig-feature-items {
+    flex-direction: column;
+  }
 }
 
 .lavendar-chicken-feature-item,
