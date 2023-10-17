@@ -309,3 +309,91 @@ nav a:hover,
 .yellow-pig-logo {
   width: 90px;
 }
+
+/* Gold pineapple */
+.gold-pineapple-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: peachpuff;
+}
+
+.gold-pineapple-logo {
+  max-width: 90px;
+}
+
+.gold-pineapple-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.55), 
+      rgba(0, 0, 0, 0.55)
+    ),
+    url(../img/pink-bg.jpeg);
+  /* needed to make background flexible */
+  background-size: cover;
+  background-position: left;
+}
+
+.gold-pineapple-hero h1  {
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Style the form element with a border around it */
+.gold-pineapple-form {
+  /* border: 4px solid #f1f1f1; */
+}
+
+/* Add some padding and a grey background color to containers */
+.gold-pineapple-container {
+  padding: 20px;
+}
+
+.gold-pineapple-label-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Style the input elements and the submit button */
+.gold-pineapple-form input[type=text], 
+.gold-pineapple-form input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+.gold-pineapple-form input[type=checkbox] {
+  margin-top: 16px;
+  width: auto;
+}
+
+.gold-pineapple-feature-content-wrapper {
+  background-color: lightskyblue;
+}
+
+.gold-pineapple-feature-content {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gold-pineapple-feature-content p {
+  color: #000;
+}
+
+.gold-pineapple-feature-items {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
