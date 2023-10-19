@@ -397,3 +397,39 @@ nav a:hover,
   justify-content: center;
   gap: 18px;
 }
+
+
+
+.orange-ferret-body p {
+  color: #000;
+}
+
+.orange-ferret-body ul {
+  text-align: left;
+}
+
+.orange-ferret-featured-item-image-wrapper {
+  width: 50%;
+}
+
+.orange-ferret-featured-item-content {
+  width: 50%;
+}
+
+.orange-ferret-featured-item {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.orange-ferret-featured-item-quantity-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.orange-ferret-footer {
+
+}
