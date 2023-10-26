@@ -17,3 +17,8 @@ function mySecondFunction() {
         x.className = "monday-soap";
     }
 }
+
+// adds active class to the body element
+function toggleActive(element) {
+    element.closest('.aqua-turtle-main').classList.toggle('active');
+}

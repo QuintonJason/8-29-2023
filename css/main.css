@@ -1,3 +1,65 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle-switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 16px;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+.toggle-switch:before, .toggle-switch:after {
+  content: "";
+}
+.toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+.toggle:hover .toggle-switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.toggle-checkbox:checked + .toggle-switch {
+  background: #56c080;
+}
+.toggle-checkbox:checked + .toggle-switch:before {
+  left: 30px;
+}
+
+.toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
 /* Place CSS styles here */
 
 /* Add a black background color to the top navigation */
@@ -165,11 +227,15 @@ label {
 }
 
 form {
-  max-width: 500px;
+  /* max-width: 500px; */
   display: block;
   /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
+}
+
+.active {
+  background-color: #00c200;
 }
 
 ul {
@@ -536,3 +602,24 @@ nav a:hover,
   background-size: cover;
   background-position: center center;
 }
+
+.active h1, 
+.active h2, 
+.active h3, 
+.active h4, 
+.active h5, 
+.active h6 {
+  text-shadow: 2px 2px 2px #00c200;
+  text-decoration: underline;
+} 
+
+.active .aqua-turtle-main h1, 
+.active .aqua-turtle-main h2, 
+.active .aqua-turtle-main h3, 
+.active .aqua-turtle-main h4, 
+.active .aqua-turtle-main h5, 
+.active .aqua-turtle-main h6 {
+  text-shadow: 2px 2px 2px #00c200;
+  text-decoration: underline;
+} 
+
