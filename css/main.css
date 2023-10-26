@@ -468,6 +468,7 @@ nav a:hover,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  width: 100%;
 }
 
 @media (max-width: 480px) {
@@ -480,6 +481,7 @@ nav a:hover,
 .aqua-turtle-flex-container {
   display: flex;
   gap: 20px;
+  width: 100%;
 }
 
 @media (max-width: 480px) {
