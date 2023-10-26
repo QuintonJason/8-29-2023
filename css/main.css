@@ -291,6 +291,10 @@ nav a:hover,
   flex-direction: column;
 }
 
+.orange-ferret-default-image {
+  width: 300px;
+}
+
 .lavendar-chicken-footer,
 .yellow-pig-footer {
   background-color: #ffc0cb
